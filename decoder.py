@@ -55,7 +55,6 @@ t3=otros.readline()
 keys=otros.readline()
 thash=otros.readline()
 #keys es la clave entregada por la sustitución
-#
 
 
 txt=open("mensajeseguro.txt","r")
@@ -72,10 +71,6 @@ k=[t0,t1,t2,t3]
 xet=uno
 l=[xet,keys]
 tex=unmatrix(l,k,t)
-
-
-
-""" cambiar el mensaje aquí para comprobar integridad """
 tex=limpieza(tex)
 
 
